@@ -25,6 +25,13 @@ img {
   }
 }
 
+@media (max-width: 567px) {
+  .container {
+    max-width: 277px;
+    width: 95%;
+  }
+}
+
 .button {
   border-radius: 10px;
   background-color: #ffd200;
