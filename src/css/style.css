@@ -404,4 +404,23 @@ img {
   top: 0;
   right: 0;
 }
+
+/* Стили для кнопки вверх */
+.up {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.up:hover {
+  cursor: pointer;
+}
+
+.up__img {
+  max-width: 70px;
+  max-height: 70px;
+}
 /*# sourceMappingURL=style.css.map */
