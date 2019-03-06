@@ -6,9 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="css/normalize.css">
-  <!-- <link rel="stylesheet" href="css/slick.css"> -->
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -27,7 +26,7 @@
               +7 (495) 42-251-31
             </a>
           </div>
-          <button class="button navbar__button" id="button">Перезвоните мне</button>
+          <button class="button navbar__button wow slideInRight" id="button">Перезвоните мне</button>
         </div>
         <!-- /.navbar__info -->
       </div>
@@ -50,19 +49,19 @@
               С гарантией качества, прописанной в договоре
             </span>
             <ul class="hero-list">
-              <li class="hero-list__item">
+              <li class="hero-list__item wow fadeInLeft">
                 <div class="hero-list__image">
                   <img src="img/clock.png" alt="clock">
                 </div>
                 <span class="hero-list__text">Точно соблюдаем сроки</span>
               </li>
-              <li class="hero-list__item">
+              <li class="hero-list__item wow fadeInLeft">
                 <div class="hero-list__image">
                   <img src="img/calculator.png" alt="calculator">
                 </div>
                 <span class="hero-list__text">Рассчитаем смету на работы и материалы в день обращения</span>
               </li>
-              <li class="hero-list__item">
+              <li class="hero-list__item wow fadeInLeft">
                 <div class="hero-list__image">
                   <img src="img/paint-board.png" alt="paint-board">
                 </div>
@@ -93,8 +92,8 @@
           </span>
           <!-- /.section-subtitle -->
           <form action="#" class="form offer_form">
-            <input type="text" class="input offer__input" placeholder="Ваше имя">
-            <input type="tel" class="input offer__input" placeholder="Ваш телефон">
+            <input type="text" class="input offer__input wow zoomInLeft" placeholder="Ваше имя">
+            <input type="tel" class="input offer__input  wow zoomInLeft" placeholder="Ваш телефон">
             <button class="button offer__button">Получить бесплатный дизайн-проект</button>
           </form>
           <div class="offer-footer">
@@ -117,7 +116,7 @@
         <h2 class="section-title portfolio__title">
           Работая с 2007 года, мы сделали более 500 ремонтов в квартирах и домах
         </h2>
-        <div class="slider owl-carousel owl-theme">
+        <div class="slider wow fadeIn" data-wow-delay="0.2s">
           <div class="slider__item"><img class="slider__img" src="img/portfolio/slider-1.png" alt="slider-1"></div>
           <div class="slider__item"><img class="slider__img" src="img/portfolio/slider-2.png" alt="slider-2"></div>
           <div class="slider__item"><img class="slider__img" src="img/portfolio/slider-3.png" alt="slider-3"></div>
@@ -125,18 +124,164 @@
           <div class="slider__item"><img class="slider__img" src="img/portfolio/slider-2.png" alt="slider-2"></div>
           <div class="slider__item"><img class="slider__img" src="img/portfolio/slider-3.png" alt="slider-3"></div>
         </div>
-<!--         <div class="arrows portfolio__arrows owl-nav">
-          <div class="arrows__left owl-prev">
+        <div class="arrows portfolio__arrows">
+          <div class="arrows__left">
             <img src="img/portfolio/left-arrow.png" alt="left-arrow">
           </div>
-          <div class="arrows__right owl-next">
+          <div class="arrows__right">
             <img src="img/portfolio/right-arrow.png" alt="right-arrow">
           </div>
-        </div> -->
+        </div>
       </div>
       <!-- /.container -->
     </section>
     <!-- /.section portfolio -->
+
+    <section class="section price">
+      <div class="container">
+        <h2 class="section-title price__title">У нас очень гибкая система скидок на комплексные работы!</h2>
+        <!-- /.section-title price__title -->
+        <span class="section-subtitle price__subtitle">Прайс на наши услуги</span>
+        <!-- /.section-subtitle price__subtitle -->
+
+        <div class="cards">
+          <div class="card price__card wow fadeInUp" data-wow-delay="0.1s">
+            <div class="card__image"><img src="img/price/bathroom.png" alt=""></div>
+            <!-- /.card__image -->
+            <div class="card__text">
+              <h4 class="card__title">Ремонт ванных комнат и с/у</h4>
+              <!-- /.card__title -->
+              <a href="#" class="card__link">Узнать цены</a>
+              <!-- /.card__link -->
+            </div>
+            <!-- /.card__text -->
+          </div>
+          <!-- /.card -->
+          <div class="card price__card wow fadeInUp" data-wow-delay="0.2s">
+            <div class="card__image"><img src="img/price/living-room.png" alt=""></div>
+            <!-- /.card__image -->
+            <div class="card__text">
+              <h4 class="card__title">Ремонт комнат и квартир</h4>
+              <!-- /.card__title -->
+              <a href="#" class="card__link">Узнать цены</a>
+              <!-- /.card__link -->
+            </div>
+            <!-- /.card__text -->
+          </div>
+          <!-- /.card -->
+          <div class="card price__card wow fadeInUp" data-wow-delay="0.3s">
+            <div class="card__image"><img src="img/price/office.png" alt=""></div>
+            <!-- /.card__image -->
+            <div class="card__text">
+              <h4 class="card__title">Отделка офисных помещений</h4>
+              <!-- /.card__title -->
+              <a href="#" class="card__link">Узнать цены</a>
+              <!-- /.card__link -->
+            </div>
+            <!-- /.card__text -->
+          </div>
+          <!-- /.card -->
+          <div class="card price__card wow fadeInUp" data-wow-delay="0.4s">
+            <div class="card__image"><img src="img/price/buildings.png" alt=""></div>
+            <!-- /.card__image -->
+            <div class="card__text">
+              <h4 class="card__title">Ремонт в новостройках</h4>
+              <!-- /.card__title -->
+              <a href="#" class="card__link">Узнать цены</a>
+              <!-- /.card__link -->
+            </div>
+            <!-- /.card__text -->
+          </div>
+          <!-- /.card -->
+          <div class="card price__card wow fadeInUp" data-wow-delay="0.5s">
+            <div class="card__image"><img src="img/price/kitchen.png" alt=""></div>
+            <!-- /.card__image -->
+            <div class="card__text">
+              <h4 class="card__title">Ремонт кухонь</h4>
+              <!-- /.card__title -->
+              <a href="#" class="card__link">Узнать цены</a>
+              <!-- /.card__link -->
+            </div>
+            <!-- /.card__text -->
+          </div>
+          <!-- /.card -->
+          <div class="card price__card wow fadeInUp" data-wow-delay="0.6s">
+            <div class="card__image"><img src="img/price/houses.png" alt=""></div>
+            <!-- /.card__image -->
+            <div class="card__text">
+              <h4 class="card__title">Ремонт дач и коттеджей</h4>
+              <!-- /.card__title -->
+              <a href="#" class="card__link">Узнать цены</a>
+              <!-- /.card__link -->
+            </div>
+            <!-- /.card__text -->
+          </div>
+          <!-- /.card -->
+        </div>
+        <!-- /.cards -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.section price -->
+
+    <section class="section steps">
+      <div class="container">
+        <h2 class="section-title steps__title">Наши специалисты готовы выхать на замер в любое удобное для Вас время</h2>
+        <!-- /.section-title steps_title -->
+        <span class="section-subtitle steps__subtitle">5 шагов до ремонта</span>
+        <!-- /.section-subtitle steps-subtitle -->
+        <div class="steps-block">
+          <div class="step">
+            <div class="step__image">
+              <img src="img/steps/woman-with-headset.svg" alt="woman">
+            </div>
+            <!-- /.step__image -->
+            <p class="step__text">Вы звоните нам или оставляете заявку</p>
+            <!-- /.step__text -->
+          </div>
+          <!-- /.step -->
+          <div class="step">
+            <div class="step__image">
+              <img src="img/steps/wall-clock.svg" alt="clock">
+            </div>
+            <!-- /.step__image -->
+            <p class="step__text">Согласуем удобное для Вас время выезда специалиста на замер</p>
+            <!-- /.step__text -->
+          </div>
+          <!-- /.step -->
+          <div class="step">
+            <div class="step__image">
+              <img src="img/steps/money.svg" alt="money">
+            </div>
+            <!-- /.step__image -->
+            <p class="step__text">Рассчитываем смету, согласовываем с Вами</p>
+            <!-- /.step__text -->
+          </div>
+          <!-- /.step -->
+          <div class="step">
+            <div class="step__image">
+              <img src="img/steps/folded-document-icon.svg" alt="document">
+            </div>
+            <!-- /.step__image -->
+            <p class="step__text">Подписываем договор, закупаем материал по оптовым ценам</p>
+            <!-- /.step__text -->
+          </div>
+          <!-- /.step -->
+          <div class="step">
+            <div class="step__image">
+              <img src="img/steps/calendar.svg" alt="calendar">
+            </div>
+            <!-- /.step__image -->
+            <p class="step__text">Выполняем ремонт в указанные сроки</p>
+            <!-- /.step__text -->
+          </div>
+          <!-- /.step -->
+        </div>
+        <!-- /.steps-block -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.section steps -->
 
   </main>
 
@@ -164,27 +309,49 @@
 
   <script src="js/modal.js"></script>
   <script src="js/button-up.js"></script>
-  <!-- <script src="js/slick.min.js"></script> -->
-  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/wow.min.js"></script>
   <script>
+    /* Инициализация WOW.js */
+    var wow = new WOW(
+  {
+    boxClass:     'wow',      // animated element css class (default is wow)
+    animateClass: 'animated', // animation css class (default is animated)
+    offset:       0,          // distance to the element when triggering the animation (default is 0)
+    mobile:       true,       // trigger animations on mobile devices (default is true)
+    live:         true,       // act on asynchronously loaded content (default is true)
+    callback:     function(box) {
+      // the callback is fired every time an animation is started
+      // the argument that is passed in is the DOM node being animated
+    },
+    scrollContainer: null,    // optional scroll container selector, otherwise use window,
+    resetAnimation: true,     // reset animation on end (default is true)
+  }
+);
+wow.init()
+    /* Подключение слайдера */
     $(document).ready(function(){
-      $('.slider').owlCarousel({
-        nav: true,
-        loop: true,
-        dots: false,
-        margin: 10,
-        navText: ['<div class="arrows__left owl-prev">  <img src="img/portfolio/left-arrow.png" alt="left-arrow"> </div>',' <div class="arrows__right owl-next"> <img src="img/portfolio/right-arrow.png" alt="right-arrow"> </div>'],
-        responsive:{
-        0:{
-            items:1
-        },
-        768:{
-            items:2
-        },
-        1200:{
-            items:3
-        }
-       }
+      $('.slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        prevArrow: $('.arrows__left'),
+        nextArrow: $('.arrows__right'),
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            }
+          },
+        ]
       });
     });
   </script>

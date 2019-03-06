@@ -1,15 +1,31 @@
 .portfolio
   background: $secondary url('../img/portfolio/portfolio-pattern.jpg') repeat-y center left
+  // background-size: contain
+  background-position:  center left 
+  position: relative
+  &:after
+    content: ''
+    width: 50%
+    height: 100%
+    position: absolute
+    top: 0
+    right: 0
+    background-color: $secondary
   &__title
-    max-width: 500px
+    position: relative
+    z-index: 2
     margin: auto
     margin-bottom: 100px
   &__arrows
+    position: relative
+    z-index: 2
     max-width: 120px
     margin: auto
     margin-top: 68px  
     display: flex
     justify-content: space-between
 .slider
+  position: relative
+  z-index: 2
   &__img
     margin: auto
