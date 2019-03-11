@@ -802,6 +802,24 @@ input.invalid {
   }
 }
 
+/* Стили для блока assistance */
+.assistance-blockd {
+  padding: 100px auto;
+}
+
+.assistance__photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.assistance__photo {
+  min-width: 370px;
+}
+
 /* Стили для блока footer */
 .footer {
   position: relative;
