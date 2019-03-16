@@ -7,21 +7,10 @@ img
 .container
   width: 1178px
   margin: auto
-@media (max-width: 1200px)
-  .container
-    width: 760px
-@media (max-width: 768px)
-  .container
-    max-width: 580px
-    width: 95%
-@media (max-width: 567px)
-  .container
-    max-width: 277px
-    width: 95%
-  .section
-    padding-top: 60px
-    padding-bottom: 60px
 
+
+img, button, input, .slider, .slider__item
+  outline: none
 
 .button
   border-radius: 10px
@@ -51,5 +40,34 @@ img
   &__left, &__right
     &:hover
       cursor: pointer
+form.invalid
+  display: flex
+  flex-direction: row
 input.invalid
   border: 1px solid red
+.offer__input_2
+  left: 253px
+#username-error
+  top: 70px
+  left: 5px
+  color: red
+#phone-error
+  top: 70px
+  left: 258px
+  color: red
+.invalid
+  position: absolute
+@media (max-width: 1200px)
+  .container
+    width: 760px
+@media (max-width: 768px)
+  .container
+    max-width: 580px
+    width: 95%
+@media (max-width: 567px)
+  .container
+    max-width: 277px
+    width: 95%
+  .section
+    padding-top: 60px
+    padding-bottom: 60px

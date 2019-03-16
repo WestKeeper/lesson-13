@@ -46,7 +46,7 @@
               Внутренняя отделка помещений "под ключ"
             </h1>
             <span class="hero-text__subtitle">
-              С гарантией качества, прописанной в договоре
+              с гарантией качества, прописанной в договоре
             </span>
             <ul class="hero-list">
               <li class="hero-list__item wow fadeInLeft">
@@ -93,8 +93,10 @@
           </span>
           <!-- /.section-subtitle -->
           <form action="#" class="form offer_form" onsubmit="ym(52753456, 'reachGoal', 'form'); return true;" id="offer-form">
-            <input type="text" name="username" class="input offer__input wow zoomInLeft" placeholder="Ваше имя">
-            <input type="tel" name="phone" class="input offer__input phone  wow zoomInLeft" placeholder="Ваш телефон">
+            <div class="offer__wrap">
+              <input type="text" name="username" class="input offer__input offer__input_1 wow zoomInLeft" placeholder="Ваше имя">
+              <input type="tel" name="phone" class="input offer__input offer__input_2 phone  wow zoomInLeft" placeholder="Ваш телефон">
+            </div>
             <button class="button offer__button">Получить бесплатный дизайн-проект</button>
           </form>
           <div class="offer-footer">
@@ -114,8 +116,8 @@
 
     <section class="section portfolio">
       <div class="container">
-        <h2 class="section-title portfolio__title">
-          Работая с 2007 года, мы сделали более 500 ремонтов в квартирах и домах
+        <h2 class=" portfolio__title">
+          Работая с 2007 года,<br> мы сделали более 500 ремонтов в квартирах и домах
         </h2>
         <div class="slider wow fadeIn" data-wow-delay="0.2s">
           <div class="slider__item"><img class="slider__img" src="img/portfolio/slider-1.png" alt="slider-1"></div>
@@ -237,7 +239,7 @@
               <img src="img/steps/woman-with-headset.svg" alt="woman">
             </div>
             <!-- /.step__image -->
-            <p class="step__text">Вы звоните нам или оставляете заявку</p>
+            <p class="step__text">Вы звоните нам<br> или оставляете заявку</p>
             <!-- /.step__text -->
           </div>
           <!-- /.step -->
@@ -246,7 +248,7 @@
               <img src="img/steps/wall-clock.svg" alt="clock">
             </div>
             <!-- /.step__image -->
-            <p class="step__text">Согласуем удобное для Вас время выезда специалиста на замер</p>
+            <p class="step__text">Согласуем удобное<br> для Вас время выезда специалиста на замер</p>
             <!-- /.step__text -->
           </div>
           <!-- /.step -->
@@ -255,7 +257,7 @@
               <img src="img/steps/money.svg" alt="money">
             </div>
             <!-- /.step__image -->
-            <p class="step__text">Рассчитываем смету, согласовываем с Вами</p>
+            <p class="step__text">Рассчитываем смету согласовываем<br> с Вами</p>
             <!-- /.step__text -->
           </div>
           <!-- /.step -->
@@ -264,7 +266,7 @@
               <img src="img/steps/folded-document-icon.svg" alt="document">
             </div>
             <!-- /.step__image -->
-            <p class="step__text">Подписываем договор, закупаем материал по оптовым ценам</p>
+            <p class="step__text">Подписываем договор, закупаем материал<br> по оптовым ценам</p>
             <!-- /.step__text -->
           </div>
           <!-- /.step -->
@@ -273,7 +275,7 @@
               <img src="img/steps/calendar.svg" alt="calendar">
             </div>
             <!-- /.step__image -->
-            <p class="step__text">Выполняем ремонт в указанные сроки</p>
+            <p class="step__text">Выполняем ремонт<br> в указанные сроки</p>
             <!-- /.step__text -->
           </div>
           <!-- /.step -->
@@ -283,6 +285,25 @@
       <!-- /.container -->
     </section>
     <!-- /.section steps -->
+
+    <section class="section">
+      <div class="container">
+        <div class="assistance-block">
+          <div class="assistance__photos">
+            <div class="assistance__photo assistance__photo-1">
+              <img src="img/assistance/man-1.png" alt="man-1">
+            </div>
+            <div class="assistance__photo assistance__photo-2">
+              <img src="img/assistance/man-2.png" alt="man-2">
+            </div>
+            <div class="assistance__photo assistance__photo-3">
+              <img src="img/assistance/man-3.png" alt="man-3">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.section -->
 
     <section class="section brif">
       <div class="container">
@@ -315,10 +336,12 @@
             <h3 class="form__title">Оставьте заявку на бесплатный расчет ремнота по телефону</h3>
             <span class="form__subtitle">Для этого заполните форму ниже</span>
             <form action="#" id="brif-form">
-              <input type="text" name="username" class="input brif__input" placeholder="Ваше имя">
-              <input type="tel" name="phone" class="input brif__input phone" placeholder="Ваш телефон">
-              <input type="email" name="email" class="input brif__input" placeholder="Ваш e-mail">
-              <button class="button brif__button">Узнать стоимость</button>
+              <div class="brif__wrap">
+                  <input type="text" name="username" class="input brif__input" placeholder="Ваше имя">
+                  <input type="tel" name="phone" class="input brif__input phone" placeholder="Ваш телефон">
+                  <input type="email" name="email" class="input brif__input" placeholder="Ваш e-mail">
+              </div>
+              <button class="button brif__button">Рассчитать стоимость</button>
               <span class="form__description">Мы перезвоним в течение 60 секунд</span>
             </form>
           </div>
@@ -330,24 +353,7 @@
     </section>
     <!-- /.section brif -->
 
-    <section class="section">
-      <div class="container">
-        <div class="assistance-block">
-          <div class="assistance__photos">
-            <div class="assistance__photo assistance__photo-1">
-              <img src="img/assistance/man-1.png" alt="man-1">
-            </div>
-            <div class="assistance__photo assistance__photo-2">
-              <img src="img/assistance/man-2.png" alt="man-2">
-            </div>
-            <div class="assistance__photo assistance__photo-3">
-              <img src="img/assistance/man-3.png" alt="man-3">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /.section -->
+
 
   </main>
 
@@ -366,23 +372,23 @@
                   <span class="contacts-list__icon">
                     <img src="img/footer/map-placeholder.png" alt="map-placeholder">
                   </span> <!-- /.contacts-list__icon -->
-                  <span class="contacts-list__text">г. Москва
-                    ул. Ленина, д. 10,
-                    корпус 2, оф. 308</span> <!-- /.contacts-list__text -->
+                  <span class="contacts-list__text">г. Москва<br>
+                    <b class="contacts-list__bold">ул. Ленина, д. 10,<br>
+                      корпус 2, оф. 308</b></span> <!-- /.contacts-list__text -->
                 </li>
                 <li class="contacts-list__item">
                     <span class="contacts-list__icon">
                         <img src="img/footer/clock-with-white-face.png" alt="clock-with-white-face">
                     </span> <!-- /.contacts-list__icon -->
-                    <span class="contacts-list__text">Режим работы:
-                      с 9:00 до 18:00</span> <!-- /.contacts-list__text -->
+                    <span class="contacts-list__text">Режим работы:<br>
+                      <b class="contacts-list__bold">с 9:00 до 18:00</b></span> <!-- /.contacts-list__text -->
                   </li>
                   <li class="contacts-list__item">
                       <span class="contacts-list__icon">
                           <img src="img/footer/phone-call-button.png" alt="phone-call-button">
                       </span> <!-- /.contacts-list__icon -->
-                      <span class="contacts-list__text">Телефон:
-                        <a href="tel:+7(495)42-251-31">+7 (495) 42-251-31</a>
+                      <span class="contacts-list__text">Телефон:<br>
+                        <a href="tel:+7(495)42-251-31"><b class="contacts-list__bold">+7 (495) 42-251-31</b></a>
                       </span> <!-- /.contacts-list__text -->
                     </li>
                 <!-- /.contacts-list__item -->
@@ -412,10 +418,7 @@
 
   <!-- <script src="js/main.js"></script> -->
 
-  <script
-  src="http://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
+  <script src="js/jquery-3.3.1.js"></script>
 
   <script src="js/modal.js"></script>
   <script src="js/button-up.js"></script>
@@ -464,7 +467,7 @@
         messages:{
           username: {
             required: "Укажите имя",
-            minlength: jQuery.validator.format("Имя должно содержать минимум {0} символа!"),
+            minlength: jQuery.validator.format("Впишите минимум {0} символа!"),
             maxlength: jQuery.validator.format("Имя может содержать максимум {0} символов!")
           },
           phone: {

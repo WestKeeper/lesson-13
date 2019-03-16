@@ -1,8 +1,16 @@
 .assistance
-  &-blockd
+  &-block
     padding: 100px auto 
   &__photos
     display: flex
     justify-content: space-between 
   &__photo
     min-width: 370px 
+@media (max-width: 1200px)
+  .assistance
+    &__photos
+      flex-direction: column
+      align-items: center
+    &__photo
+      max-width: 370px 
+      margin-bottom: 28px

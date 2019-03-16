@@ -19,21 +19,33 @@
     text-align: left
     max-width: 360px
     line-height: 35px
+    margin-top: 0
     margin-bottom: 24px
+  &__form
+    display: flex
+    flex-direction: row
   &__subtitle
     max-width: 250px
     margin-bottom: 30px
+  &__wrap
+    min-width: 500px
+    min-height: 90px
+    position: relative
   &__input
     outline: none
     margin-bottom: 30px
     width: 240px
+    position: absolute
     &:first-child  
       margin-right: 10px
     &:focus  
       border-color: $main-color
+    &_1
+      
   &__button
     width: 100%
     min-width: 70px
+    padding: 27px 0
     margin-bottom: 27px
   &-footer
     display: flex
@@ -44,21 +56,26 @@
   &__right-span
     display: flex
     flex-direction: column
-    max-width: 190px
+    max-width: 200px
   &__right-text
     margin-bottom: 10px
   &__right-strong
     +bold
 
-
 @media (max-width: 1200px)
   .offer
     background-size: cover
+    &__wrap
+      min-width: 10px
+      max-width: 290px
     &__input
       width: 100%
       margin-bottom: 10px
+      position: static
     &__button
       font-size: 13px
+  .invalid
+    position: static
 @media (max-width: 768px)
     .offer
       background: #fff
